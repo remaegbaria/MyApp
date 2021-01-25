@@ -3,7 +3,7 @@ const app = express();
 var bodyParser = require('body-parser')
 
 
-app.use(express.static('rct/public'));
+app.use(express.static('rct/build'));
 app.use(bodyParser.json())
 
 const images = [
